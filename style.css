@@ -1,0 +1,60 @@
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: test;
+    animation-duration: 3s;
+    animation-delay:2s ;
+    animation-iteration-count: 4;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    -webkit-animation-name: test;
+    -webkit-animation-duration: 3s;
+padding: 100px}
+
+
+  @-webkit-keyframes test{
+    0%{background-color: red;}
+    25%{background-color: yellow;}
+    50%{background-color: green;}
+    75%{background-color: yellow;}
+    100%{background-color: black;}
+ }
+ @keyframes test{
+    0%{background-color: red;left: 0px;top:0px;}
+    25%{background-color: blue;left: 300px;top:0px;}
+    50%{background-color: green;left: 300px;top:300px;}
+    75%{background-color: yellow;left: 0px;top:300px;}
+    100%{background-color: black;left: 0px;top:0px;}
+ }
+.pox{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: test;
+    animation-duration: 3s;
+    animation-delay:2s ;
+    animation-iteration-count: 4;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    -webkit-animation-name: test;
+    -webkit-animation-duration: 3s;}
+
+
+  @-webkit-keyframes test{
+    0%{background-color: red;}
+    25%{background-color: blue;}
+    50%{background-color: green;}
+    75%{background-color: yellow;}
+    100%{background-color: black;}
+ }
+ @keyframes test{
+    0%{background-color: red;left: 0px;top:0px;}
+    25%{background-color: blue;left: 300px;top:0px;}
+    50%{background-color: green;left: 300px;top:300px;}
+    75%{background-color: yellow;left: 0px;top:300px;}
+    100%{background-color: black;left: 0px;top:0px;}
+ }
